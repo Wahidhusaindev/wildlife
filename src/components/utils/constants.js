@@ -1,5 +1,5 @@
 const navLink = [
-  { id: 2, title: "Wildlife", link: "/" },
+  { id: 2, title: "Wildlife", link: "/wildlife" },
   { id: 3, title: "Join Team", link: "/join-us" },
   { id: 4, title: "Contact Us", link: "/contact" },
   { id: 5, title: "Program", link: "/program" },

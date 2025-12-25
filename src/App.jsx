@@ -8,19 +8,23 @@ import JoinTeam from "./pages/JoinTeam";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import Home from "./pages/Home";
+import Footer from "./components/layout/Footer";
+
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Home />
-     <Routes>
-      <Route path="/wildlife" element={<Wildlife />} />
-      <Route path="/program" element={<Program />} />
-      <Route path="/join-us" element={<JoinTeam />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/blog" element={<Blog />} />
-     </Routes>
+       
+      <Routes>
+        <Route path="/" element={<Home />} /> 
+        <Route path="/wildlife" element={<Wildlife />} />
+        <Route path="/program" element={<Program />} />
+        <Route path="/join-us" element={<JoinTeam />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
+      <Footer />
     </>
   );
 };
