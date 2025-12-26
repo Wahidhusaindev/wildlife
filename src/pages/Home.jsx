@@ -7,7 +7,7 @@ export default function Home() {
         <h1 className="text-4xl md:text-5xl font-cinzel font-bold">
           Guardians of Wildlife
         </h1>
-        <p className="mt-6 max-w-3xl mx-auto text-lg">
+        <p className="mt-6 max-w-3xl mx-auto text-lg font-playfair">
           Protecting wildlife, conserving ecosystems, and creating awareness
           for a sustainable future.
         </p>
