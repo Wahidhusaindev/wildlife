@@ -4,7 +4,7 @@ export default function Home() {
 
       {/* HERO SECTION */}
       <section className="bg-green-900 text-white py-20 px-6 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold">
+        <h1 className="text-4xl md:text-5xl font-cinzel font-bold">
           Guardians of Wildlife
         </h1>
         <p className="mt-6 max-w-3xl mx-auto text-lg">
